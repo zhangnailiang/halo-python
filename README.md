@@ -10,7 +10,7 @@ After copying the project on your local machine (git clone [url]), you have to:
 
 1. install the dependencies listed in requirements.txt by running:
 ```language
-#    pip install -r requirements.txt
+# pip install -r requirements.txt
 ```
 2. Download the de430.bsp ephemeris at [NAIF de430](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/).   
    Place it in MATLAB/HALO/ker and in Python/input.
@@ -34,6 +34,11 @@ The project's code is developed in python.
 
 The main usage of HALO is to construct a mission by changing the input files like LoadSequential.py on PYTHON, then run the mission by running the main script HALO.py, and finally use python scripts like Visualisation.py to process the output file. Because of relative path, HALO.py as to be run from the python folder.
 Read the following parts to learn what can be done with HALO.
+
+How to run the project:
+```language
+# python HALO.py
+```
 
 ### Architechture of the Python
 - "HALO.py" is the main file that allows to run the tool.  
@@ -73,4 +78,4 @@ See also part 4.3.5 of the paper for time and coordinate systems handling in eit
 # Authors and acknowledgment
 
 Creator of the Github and first contributor to the project: Quentin Granier, Research Associate.  
-Supervisor of the Project : Dr Yang Yang, contact: yiyinfeixiong@gmail.com.
+Supervisor of the Project: Special thanks to Dr. Yang Yang for his continuous support and guidance throughout this project. Contact: yiyinfeixiong@gmail.com.
